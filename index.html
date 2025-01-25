@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Kodu ile Bağlı Fotoğraf Galerisi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        .header {
+            background-color: #6200ea;
+            color: white;
+            padding: 1rem 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #6200ea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Fotoğraf Galerisi</h1>
+        <p>QR kodu tarayarak bu sayfaya erişebilirsiniz!</p>
+    </div>
+
+    <div class="gallery">
+        <img src="https://via.placeholder.com/400x300?text=Foto%C4%9Fraf+1" alt="Fotoğraf 1">
+        <img src="https://via.placeholder.com/400x300?text=Foto%C4%9Fraf+2" alt="Fotoğraf 2">
+        <img src="https://via.placeholder.com/400x300?text=Foto%C4%9Fraf+3" alt="Fotoğraf 3">
+        <img src="https://via.placeholder.com/400x300?text=Foto%C4%9Fraf+4" alt="Fotoğraf 4">
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Fotoğraf Galerisi | Hazırlandı.</p>
+    </div>
+</body>
+</html>
