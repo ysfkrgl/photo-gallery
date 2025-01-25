@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fotoğraflar</title>
+    <title>Fotoğraflar ve Videolar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,6 +32,20 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+        .video-gallery {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
         .footer {
             margin-top: 2rem;
             padding: 1rem;
@@ -46,10 +60,20 @@
     </div>
 
     <div class="gallery">
-        <img src="https://github.com/ysfkrgl/photo-gallery/blob/main/IMG-20250115-WA0016.jpg" alt="Fotoğraf 1">
-        <img src="https://github.com/ysfkrgl/photo-gallery/blob/main/IMG-20250115-WA0016.jpg?raw=true" alt="Fotoğraf 2">
-        <img src="https://via.placeholder.com/400x300?text=Foto%C4%9Fraf+3" alt="Fotoğraf 3">
-        <img src="https://drive.google.com/file/d/109Tl_05wxeqrHtKvY-4gH8p1DTjb79os/view" alt="Fotoğraf 4">
+        <img src="https://raw.githubusercontent.com/kullanıcı_adı/depo_adı/branch_adı/foto1.jpg" alt="Fotoğraf 1">
+        <img src="https://raw.githubusercontent.com/kullanıcı_adı/depo_adı/branch_adı/foto2.jpg" alt="Fotoğraf 2">
+    </div>
+
+    <div class="video-gallery">
+        <h2>Videolar</h2>
+        <video controls>
+            <source src="https://raw.githubusercontent.com/kullanıcı_adı/depo_adı/branch_adı/video1.mp4" type="video/mp4">
+            Tarayıcınız bu videoyu desteklemiyor.
+        </video>
+        <video controls>
+            <source src="https://raw.githubusercontent.com/kullanıcı_adı/depo_adı/branch_adı/video2.mp4" type="video/mp4">
+            Tarayıcınız bu videoyu desteklemiyor.
+        </video>
     </div>
 
     <div class="footer">
